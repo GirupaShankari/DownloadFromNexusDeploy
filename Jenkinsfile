@@ -5,8 +5,8 @@ pipeline {
    
     stage('checkout') {
          steps {
-          /* http://10.61.43.73:8081/ in/javahome/Publish.zip/1/Publish.zip-1.zip */
-          http://10.61.43.73:8081/#browse/browse:simpleapp-release:in%2Fjavahome%2FPublish.zip%2F1%2FPublish.zip-1.zip
+          /* http://10.61.43.73:8081/ in/javahome/Publish.zip/1/Publish.zip-1.zip */   
+             http://10.61.43.73:8081/repository/simpleapp-release/in/javahome/Publish.zip/1/Publish.zip-1.zip
          }
       }
    
